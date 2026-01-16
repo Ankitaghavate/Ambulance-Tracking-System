@@ -166,6 +166,7 @@ This app is designed to be user-friendly, ensuring a seamless experience for bot
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct.
+Contributions are welcome!
+
 
 
