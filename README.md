@@ -1,5 +1,5 @@
 
-# 🚑 Ambulance Tracking System
+# 🚑 CareWise AI - Ambulance Tracking System
 
 A mobile application built using HTML, CSS, JavaScript, and Google API that notifies patients of nearby hospitals and the estimated time of arrival of the ambulance. It provides hospitals and ambulance drivers with critical information such as the patient’s location and enables effective GPS route management via real-time traffic information on scheduled routes.
 
@@ -167,4 +167,5 @@ This app is designed to be user-friendly, ensuring a seamless experience for bot
 ## 🤝 Contributing
 
 Contributions are welcome! Please read the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct.
+
 
