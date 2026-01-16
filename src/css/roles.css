@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #2C3E50, #74ebd5, #ACB6E5, #FFDEE9, #0F2027);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 400% 400%;
+    animation: gradientBackground 15s ease infinite;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /* Reduced padding */
+    background-color: #f2f2f2; 
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    color: #333;
+    display: flex; /* Added for icon and text alignment */
+    align-items: center; /* Centered vertically */
+}
+
+.role-selection {
+    margin-top: 80px; /* Reduced margin-top */
+    margin-bottom: 20px; /* Reduced margin-bottom */
+    background-color: white;
+    padding: 20px; /* Adjusted padding */
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 70%;
+}
+
+.role-selection h1 {
+    margin-bottom: 20px; /* Reduced margin-bottom */
+    font-size: 44px;
+    color: #333;
+}
+
+/* Role Buttons */
+.role-buttons {
+    display: flex;
+    gap: 40px; /* Adjusted gap */
+}
+
+.role {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 0 2px rgb(174, 174, 174);
+    border-radius: 25px;
+    padding: 1rem 0.3rem;
+}
+
+.role i {
+    font-size: 50px;
+}
+
+.role-btn {
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Button styles remain the same... */
+
+/* Background animation keyframes */
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* Role Buttons */
+.role-buttons {
+    display: flex;
+    gap: 60px;
+}
+
+.role {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 0 2px rgb(174, 174, 174);
+    border-radius: 25px;
+    padding: 1rem 0.3rem;
+}
+
+.role i {
+    font-size: 50px;
+}
+
+.role-btn {
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.role-description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    font-weight: 700;
+}
+
+.user-btn {
+    background-color: #4CAF50;
+}
+
+.user-btn:hover {
+    background-color: #45a049;
+    border: 3px solid black;
+}
+
+.hospital-btn {
+    background-color: #2196F3;
+}
+
+.hospital-btn:hover {
+    background-color: #1e87e5;
+    border: 3px solid black;
+}
+
+.driver-btn {
+    background-color: #FF9800;
+}
+
+.driver-btn:hover {
+    background-color: #fb8c00;
+    border: 3px solid black;
+}
+
+/* Background animation keyframes */
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
