@@ -29,7 +29,7 @@ session_start();
             } 
             else 
             {
-                echo '<script>alert("User not found!");</script>';
+                echo '<script>alert("User not found!!");</script>';
             }
         }
         $conn->close();

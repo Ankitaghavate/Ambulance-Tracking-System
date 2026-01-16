@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Sign in page</title>
+    <title>Sign in</title>
     <?php
 session_start();
         

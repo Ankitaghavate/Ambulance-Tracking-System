@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Login Page</title>
+    <title>Login Page.</title>
     <style>
         body {
             font-family: Arial, sans-serif;

@@ -12,6 +12,7 @@ accordions.forEach((accordion, index) => {
             const c = a.querySelector(".accordion__content");
             const ic = a.querySelector(".accordion__icon i");
 
+            
             if (i === index) {
                 c.style.height = isOpen ? "0px" : `${c.scrollHeight}px`;
                 ic.classList.toggle("ri-add-line", isOpen);
